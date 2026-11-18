@@ -1,0 +1,8 @@
+# This repository currently has no framework, package.json, or build step,
+# so Netlify deploys the files in the repository root as-is.
+# Once an app is added (e.g. a Vite/Next/Astro project), update `command`
+# and `publish` to match its build (for Vite: command = "npm run build",
+# publish = "dist").
+[build]
+  command = ""
+  publish = "."
